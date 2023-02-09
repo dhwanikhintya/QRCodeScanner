@@ -1,0 +1,45 @@
+:root{
+    ---White: hsl(0, 0%, 100%);
+---Lightgray: hsl(212, 45%, 89%);
+---Grayishblue: hsl(220, 15%, 55%);
+---Darkblue: hsl(218, 44%, 22%);
+
+}
+
+body{
+    text-align: -webkit-center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(---Lightgray);
+}
+
+.conianter{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 325px;
+    margin: 150px auto;
+    background-color: var(---White);
+    box-shadow: 0px 10px 20px #6f6f6f59;
+}
+
+.mainsection{
+    padding: 18px;
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+h2{
+    color: var(---Darkblue);
+}
+
+.para{
+    font-size: 15px;
+    margin: 0px 20px;
+    color: var(---Grayishblue);
+}
